@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"></meta>
-      
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.27.0/min/vs/editor/editor.main.min.css">
+
     </head>
+
 <body>
-  
-    <div id="container" style="width:800px;height:600px;border:1px solid rgb(255, 55, 55)"></div>
+
+    <div id="Text" style="float: left; margin: 5px; width:300px;height:600px;border:3px solid rgb(103, 103, 103)"></div>
    
+
+    <div id="container" style=" float: left; margin: 5px; width:800px;height:600px;border:3px solid rgb(103, 103, 103)"></div>
+   
+    <div id="Text" style="float: left; margin: 5px; width:1116px;height:200px;border:3px solid rgb(103, 103, 103)"></div>
+   
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.27.0/min/vs/loader.js"></script>
 
+
+
     <script>
-        /*
         require.config({paths:{ 'vs ': 'https://cdn.jsdelivr.net/npm/monaco-editor@0.27.0/min/vs'}});
 
-
-
         require (['vs/editor/editor.main'], function () {
-            var editor = monaco.editor.create(document.getElementByld('container'), {
+            var editor = monaco.editor.create(document.getElementById('container'), {
                 value: 'hello worod',
                 language: 'csharp',
                 theme:'vs-dark'
          });
     });
-    */
+    
     </script>
 
 
-    <script>
-        require.config({ paths: { 'vs': 'https://cdn.jsdelivr.net/npm/monaco-editor@0.27.0/min/vs' }});
-
-    </script>
-
-
-
-
-
-
+  
 
 
 </body>
