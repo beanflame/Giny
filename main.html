@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"></meta>
+      
+    </head>
+<body>
+  
+    <div id="container" style="width:800px;height:600px;border:1px solid rgb(255, 55, 55)"></div>
+   
+
+
+    <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.27.0/min/vs/loader.js"></script>
+
+    <script>
+        /*
+        require.config({paths:{ 'vs ': 'https://cdn.jsdelivr.net/npm/monaco-editor@0.27.0/min/vs'}});
+
+
+
+        require (['vs/editor/editor.main'], function () {
+            var editor = monaco.editor.create(document.getElementByld('container'), {
+                value: 'hello worod',
+                language: 'csharp',
+                theme:'vs-dark'
+         });
+    });
+    */
+    </script>
+
+
+    <script>
+        require.config({ paths: { 'vs': 'https://cdn.jsdelivr.net/npm/monaco-editor@0.27.0/min/vs' }});
+
+    </script>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+<script>
+    /*
+require(['vs/editor/editor.main'], function() {
+    // JSON object we want to edit
+    const jsonCode = [{
+      "enabled": true,
+      "description": "something"
+    }];
+  
+    const modelUri = monaco.Uri.parse("json://grid/settings.json");
+    const jsonModel = monaco.editor.createModel(JSON.stringify(jsonCode, null, '\t'), "json", modelUri);
+  
+    const editor = monaco.editor.create(document.getElementById('container'), {
+      model: jsonModel
+    });
+  });
+  */
+</script> 
+
+ 
+ 
